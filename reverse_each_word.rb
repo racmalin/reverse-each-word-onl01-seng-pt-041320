@@ -1,5 +1,8 @@
 def reverse_each_word(sentence1)
-  if sentence1 == "Hello there, how are you?"
-   reverse.each  |:sentence1|
-  # end
+ original_array = string.split(" ")
+  return_array = []
+  original_array.each do|string|
+    return_array << string.reverse
+  end
+  return_array.join(" ")
 end
