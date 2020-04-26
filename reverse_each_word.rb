@@ -1,4 +1,5 @@
 def reverse_each_word
   :sentence1 = ("Hello there, how are you?")
-  reverse.each |sentence1|
+  reverse.each |sentence1| do
+
 end
